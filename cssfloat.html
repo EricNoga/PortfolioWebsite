@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Float</title>
+    <style>
+        div{
+            display: inline-block;
+            width:40%
+        }
+        p{
+            font-size:2em;
+        }
+        .cat{
+            background-color:aquamarine;
+        }
+        .cat>img{
+            float:left;
+        }
+        .dog{
+            background-color:coral;
+            float:right;
+        }
+        .dog>img{
+            float:left;
+        }
+        footer{
+            text-align:center;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="cat">
+        <h2>CatCSS</h2>
+        <img src="https://picsum.photos/100" alt="cat"/>
+        <p class="first-paragrpah">Integer in dolor lorem. Duis id faucibus ante. Donec scelerisque finibus tortor quis mattis.</p>
+    </div>
+    <div class="dog">
+        <h2>DogCSS</h2>
+        <img src="https://picsum.photos/100" alt="dog"/>
+        <p class="second-paragraph">Integer in dolor lorem. Duis id faucibus ante. Donec scelerisque finibus tortor quis mattis.</p>
+    </div>
+<footer>Copyright. This is the footer</footer>
+</body>
+</html>
